@@ -7,7 +7,6 @@ CC = /usr/bin/gcc
 INCLUDE    = -I. -I /usr/local/include -I ../
 LIBRARIES  = -L /usr/local/lib
 C_FLAGS    = -Wall -Werror
-#L_FLAGS    = -levent -lpthread
 CC_INCLUDE = $(INCLUDE)
 
 
