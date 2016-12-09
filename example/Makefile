@@ -7,12 +7,12 @@ CC = /usr/bin/gcc
 INCLUDE    = -I. -I /usr/local/include -I ../
 LIBRARIES  = -L /usr/local/lib
 C_FLAGS    = -Wall -Werror
-L_FLAGS    = -levent -lpthread
+#L_FLAGS    = -levent -lpthread
 CC_INCLUDE = $(INCLUDE)
 
 
 CONSOLE_SAMPLE_BIN  = console_sample
-SYSLOG_SAMPLE_BIN = server_sample
+SYSLOG_SAMPLE_BIN = syslog_sample
 
 SAMPLE_SRC  = sample.c
 
